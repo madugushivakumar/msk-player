@@ -95,27 +95,6 @@ npm run dev
 
 ---
 
-## 📸 Screenshots
-
-(Add your app screenshots here)
-
----
-
-## 🌐 Live Demo
-
-(Deploy link – add after deploying to Netlify/Vercel)
-
----
-
-## 📌 Future Improvements
-
-* 🔄 Backend integration
-* ❤️ Like/Favorite songs
-* ☁️ Cloud storage
-* 🎶 Real Spotify API integration
-
----
-
 ## 👨‍💻 Author
 
 **Shiva Kumar Mudiraj**
