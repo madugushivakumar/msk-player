@@ -1,0 +1,182 @@
+.signup-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+  color: white;
+  background-color: #0f0606;
+  border-radius: 12px;
+}
+
+.logo {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: none;
+}
+
+.next-btn {
+  background-color: #1db954;
+  color: white;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  border-radius: 25px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #1db954;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.password-rules {
+  text-align: left;
+  font-size: 14px;
+  color: #ccc;
+  margin: 10px 0;
+}
+
+.dob-group {
+  display: flex;
+  gap: 5px;
+}
+
+.gender-options {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.checkbox {
+  display: block;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.terms-text {
+  font-size: 13px;
+  color: #ccc;
+}
+
+.terms-text a {
+  color: #1db954;
+  text-decoration: none;
+}
+
+.progress {
+  background-color: #333;
+  height: 3px;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 3px;
+  background-color: #1db954;
+  transition: width 0.3s ease;
+}
+
+.progress-bar.step-1 {
+  width: 25%;
+}
+
+.progress-bar.step-2 {
+  width: 50%;
+}
+
+.progress-bar.step-3 {
+  width: 75%;
+}
+
+.progress-bar.step-4 {
+  width: 100%;
+}
+.alt-option {
+  margin: 10px 0;
+  font-size: 14px;
+  text-align: left;
+}
+.alt-option a {
+  color: #1db954;
+  text-decoration: none;
+  font-weight: 500;
+}
+.alt-option a:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #b3b3b3;
+}
+.divider span {
+  flex: 1;
+  height: 1px;
+  background: #333;
+}
+.divider p {
+  margin: 0 10px;
+  font-size: 14px;
+}
+
+.social-btn {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #b3b3b3;
+  background: #121212;
+  color: white;
+}
+.social-btn.google::before {
+  content: "G ";
+  font-weight: bold;
+}
+.social-btn.apple::before {
+  content: " ";
+  font-weight: bold;
+}
+
+.login-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+.login-footer a {
+  color: #1db954;
+  text-decoration: none;
+  font-weight: 500;
+}
+.login-footer a:hover {
+  text-decoration: underline;
+}
+/* Error + disabled + password toggle helpers */
+.error-text { color: #ff6b6b; margin: 8px 0 12px; text-align: center; }
+.input-error { border: 1px solid #ff6b6b !important; }
+
+.next-btn[disabled], .back-btn[disabled] {
+  opacity: .6; cursor: not-allowed;
+}
+
+.pwd-field { position: relative; }
+.pwd-toggle {
+  position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+  background: none; border: 0; color: #b3b3b3; cursor: pointer; font-size: 12px;
+}
