@@ -1,32 +1,32 @@
-# 🎵 MSK Player
+#  MSK Player
 
 A modern **Spotify-like Music Player Web App** built using **React + Vite**.
 This project provides a smooth UI for playing songs, managing playlists, and interacting using a voice assistant.
 
 ---
-## 🚀 Features
+##  Features
 
-* 🎧 Play, Pause, Next, Previous controls
-* 📃 Playlist management
-* 🔍 Search functionality
-* 🎤 Voice Assistant (Siri-like commands)
-* 🔊 Volume control
-* 🌙 Light/Dark mode support
-* 🔐 Login & Signup UI
-* 📱 Responsive design
-
----
-
-## 🛠️ Tech Stack
-
-* ⚛️ React.js
-* ⚡ Vite
-* 🎨 CSS3
-* 🎙️ Web Speech API (Voice Assistant)
+*  Play, Pause, Next, Previous controls
+*  Playlist management
+*  Search functionality
+*  Voice Assistant (Siri-like commands)
+*  Volume control
+*  Light/Dark mode support
+*  Login & Signup UI
+*  Responsive design
 
 ---
 
-## 📂 Project Structure
+##  Tech Stack
+
+*  React.js
+*  Vite
+*  CSS3
+*  Web Speech API (Voice Assistant)
+
+---
+
+##  Project Structure
 
 ```
 msk-player/
@@ -52,7 +52,7 @@ msk-player/
 
 ---
 
-## ⚙️ Installation & Setup
+##  Installation & Setup
 
 ### 1️⃣ Clone the repository
 
@@ -78,11 +78,11 @@ npm install
 npm run dev
 ```
 
-👉 Open: `http://localhost:5173/`
+ Open: `http://localhost:5173/`
 
 ---
 
-## 🎤 Voice Commands (Example)
+##  Voice Commands (Example)
 
 * "Play song"
 * "Next song"
@@ -95,7 +95,7 @@ npm run dev
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Shiva Kumar Mudiraj**
 GitHub: https://github.com/madugushivakumar
